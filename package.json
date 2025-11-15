@@ -8,8 +8,8 @@
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"lint": "eslint .",
-		"preview": "yarn run build && vite preview",
-		"deploy": "yarn run build && wrangler deploy",
+		"preview": "npm run build && vite preview",
+		"deploy": "npm run build && wrangler deploy",
 		"cf-typegen": "wrangler types"
 	},
 	"dependencies": {
